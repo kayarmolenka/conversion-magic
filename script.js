@@ -56,7 +56,7 @@ const arr2 = arr.map((el) => {
     li.textContent = el;
     ul.append(li);
 
-    wrapper.appendChild(ul)
+    wrapper.appendChild(ul);
 })
 
 function createImages(){
@@ -69,10 +69,10 @@ function createImages(){
     let img4 = document.createElement('img');
     img4.src = './img/4.png';
 
-    wrapper.append(img, img2, img3, img4)
+    wrapper.append(img, img2, img3, img4);
 }
 
-createImages()
+createImages();
 
 const text = document.createElement('div');
 text.innerHTML +=
